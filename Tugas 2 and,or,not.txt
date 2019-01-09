@@ -1,0 +1,77 @@
+"AND"
+#include <iostream> 
+using namespace std; 
+int main() 
+{ 
+	int w1; 
+	int w2; 
+	int x1; 
+	int x2; 
+	int o; 
+	cout<<"x1="; 
+	cin>>x1; 
+	cout<<"x2="; 
+	cin>>x2; 
+	w1=1; 
+	w2=1; 
+	o = x1*w1+x2*w2; 
+	if (1 >=100) 
+		 cout<<"result AND"; 
+    else 
+	     cout<<"result AND"; 
+	return 0; 
+    
+} 
+
+"NOT"
+#include <iostream> 
+using namespace std; 
+int main() 
+ { 
+    int x; 
+	int w; 
+	int o; 
+	cout<<"x="; 
+	cin>>x; 
+	w=-1; 
+	o =x*w; 
+	if (o >=-0.25) 
+		 cout<<"result NOT"; 
+	else 
+    	 cout<<"result NOT"; 
+     return 0; 
+      
+} 
+
+"OR"
+#include <iostream> 
+using namespace std; 
+int main() 
+{ 
+	int w1; 
+	int w2; 
+	int x1; 
+	int x2; 
+	int o; 
+	cout<<"x1="; 
+		cin>>x1; 
+	cout<<"x2="; 
+		cin>>x2; 
+	w1=2; 
+	w2=2; 
+	o = x1*w1+x2*w2; 
+	if (o >=8) 
+	cout<<"result OR"; 
+		else 
+	cout<<"result OR"; 
+	return 0; 
+    
+} 
+
+
+
+
+
+
+
+
